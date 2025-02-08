@@ -3,9 +3,9 @@ import json
 
 from botocore.exceptions import ClientError
 
-client = boto3.client("bedrock-runtime", region_name="us-west-2")
+client = boto3.client("", region_name="") //WRITE YOUR MODEL ID AND REGION NAME
 
-model_id = "meta.llama3-8b-instruct-v1:0"
+model_id = ""  //WRITE YOUR MODEL ID
 
 prompt = "Best places to visit in banaras"
 
